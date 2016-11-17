@@ -16,7 +16,7 @@ namespace comp1004_assignment4_200180985
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new SplashScreenForm());
         }
     }
 }
