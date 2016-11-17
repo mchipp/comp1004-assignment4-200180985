@@ -86,7 +86,7 @@
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Padding = new System.Windows.Forms.Padding(9, 3, 0, 3);
-            this.menuStrip1.Size = new System.Drawing.Size(785, 25);
+            this.menuStrip1.Size = new System.Drawing.Size(785, 24);
             this.menuStrip1.TabIndex = 0;
             this.menuStrip1.Text = "menuStrip1";
             // 
@@ -112,7 +112,7 @@
             // 
             this.ProductIDForm.AutoSize = true;
             this.ProductIDForm.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductIDForm.Location = new System.Drawing.Point(18, 47);
+            this.ProductIDForm.Location = new System.Drawing.Point(18, 54);
             this.ProductIDForm.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ProductIDForm.Name = "ProductIDForm";
             this.ProductIDForm.Size = new System.Drawing.Size(78, 18);
@@ -122,7 +122,7 @@
             // ProductIDTextBox
             // 
             this.ProductIDTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductIDTextBox.Location = new System.Drawing.Point(104, 44);
+            this.ProductIDTextBox.Location = new System.Drawing.Point(104, 51);
             this.ProductIDTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProductIDTextBox.Name = "ProductIDTextBox";
             this.ProductIDTextBox.Size = new System.Drawing.Size(114, 24);
@@ -131,7 +131,7 @@
             // ConditionTextBox
             // 
             this.ConditionTextBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConditionTextBox.Location = new System.Drawing.Point(315, 44);
+            this.ConditionTextBox.Location = new System.Drawing.Point(315, 51);
             this.ConditionTextBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ConditionTextBox.Name = "ConditionTextBox";
             this.ConditionTextBox.Size = new System.Drawing.Size(114, 24);
@@ -141,7 +141,7 @@
             // 
             this.ConditionLabel.AutoSize = true;
             this.ConditionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ConditionLabel.Location = new System.Drawing.Point(236, 47);
+            this.ConditionLabel.Location = new System.Drawing.Point(236, 54);
             this.ConditionLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.ConditionLabel.Name = "ConditionLabel";
             this.ConditionLabel.Size = new System.Drawing.Size(71, 18);
@@ -151,7 +151,7 @@
             // CostTextbox
             // 
             this.CostTextbox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CostTextbox.Location = new System.Drawing.Point(508, 44);
+            this.CostTextbox.Location = new System.Drawing.Point(508, 51);
             this.CostTextbox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.CostTextbox.Name = "CostTextbox";
             this.CostTextbox.Size = new System.Drawing.Size(114, 24);
@@ -161,7 +161,7 @@
             // 
             this.CostLabel.AutoSize = true;
             this.CostLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CostLabel.Location = new System.Drawing.Point(460, 47);
+            this.CostLabel.Location = new System.Drawing.Point(460, 54);
             this.CostLabel.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.CostLabel.Name = "CostLabel";
             this.CostLabel.Size = new System.Drawing.Size(40, 18);
@@ -179,7 +179,7 @@
             this.ProductInfoGroupBox.Controls.Add(this.PlatformTextBox);
             this.ProductInfoGroupBox.Controls.Add(this.PlatformLabel);
             this.ProductInfoGroupBox.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.ProductInfoGroupBox.Location = new System.Drawing.Point(13, 99);
+            this.ProductInfoGroupBox.Location = new System.Drawing.Point(13, 95);
             this.ProductInfoGroupBox.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ProductInfoGroupBox.Name = "ProductInfoGroupBox";
             this.ProductInfoGroupBox.Padding = new System.Windows.Forms.Padding(4, 4, 4, 4);
@@ -280,7 +280,7 @@
             this.groupBox1.Controls.Add(this.CPUBrandLabel);
             this.groupBox1.Controls.Add(this.MemoryTextBox);
             this.groupBox1.Controls.Add(this.MemoryLabel);
-            this.groupBox1.Location = new System.Drawing.Point(13, 215);
+            this.groupBox1.Location = new System.Drawing.Point(13, 211);
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.Size = new System.Drawing.Size(759, 141);
             this.groupBox1.TabIndex = 9;
@@ -452,7 +452,7 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(12, 375);
+            this.label1.Location = new System.Drawing.Point(12, 371);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(249, 18);
             this.label1.TabIndex = 10;
@@ -460,7 +460,7 @@
             // 
             // SelectAnotherProductButton
             // 
-            this.SelectAnotherProductButton.Location = new System.Drawing.Point(408, 373);
+            this.SelectAnotherProductButton.Location = new System.Drawing.Point(408, 369);
             this.SelectAnotherProductButton.Name = "SelectAnotherProductButton";
             this.SelectAnotherProductButton.Size = new System.Drawing.Size(183, 23);
             this.SelectAnotherProductButton.TabIndex = 11;
@@ -469,7 +469,7 @@
             // 
             // CancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(616, 373);
+            this.CancelButton.Location = new System.Drawing.Point(616, 369);
             this.CancelButton.Name = "CancelButton";
             this.CancelButton.Size = new System.Drawing.Size(75, 23);
             this.CancelButton.TabIndex = 12;
@@ -478,7 +478,7 @@
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(697, 373);
+            this.NextButton.Location = new System.Drawing.Point(697, 369);
             this.NextButton.Name = "NextButton";
             this.NextButton.Size = new System.Drawing.Size(75, 23);
             this.NextButton.TabIndex = 13;

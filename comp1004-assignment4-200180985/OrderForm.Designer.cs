@@ -55,6 +55,17 @@
             this.printToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.exitToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.aboutToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.listBox1 = new System.Windows.Forms.ListBox();
+            this.LCDSizeLabel = new System.Windows.Forms.Label();
+            this.MemoryLabel = new System.Windows.Forms.Label();
+            this.CPUBrandLabel = new System.Windows.Forms.Label();
+            this.CPUNumberLabel = new System.Windows.Forms.Label();
+            this.CPUTypeLabel = new System.Windows.Forms.Label();
+            this.CPUSpeedLabel = new System.Windows.Forms.Label();
+            this.HDDLabel = new System.Windows.Forms.Label();
+            this.GPUTypeLabel = new System.Windows.Forms.Label();
+            this.WebCamLabel = new System.Windows.Forms.Label();
+            this.OSLabel = new System.Windows.Forms.Label();
             this.menuStrip1.SuspendLayout();
             this.SystemComponentsGroupBox.SuspendLayout();
             this.YourPriceGroupBox.SuspendLayout();
@@ -99,6 +110,17 @@
             // 
             // SystemComponentsGroupBox
             // 
+            this.SystemComponentsGroupBox.Controls.Add(this.OSLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.WebCamLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.GPUTypeLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.HDDLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.CPUSpeedLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.CPUTypeLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.CPUNumberLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.CPUBrandLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.MemoryLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.LCDSizeLabel);
+            this.SystemComponentsGroupBox.Controls.Add(this.listBox1);
             this.SystemComponentsGroupBox.Controls.Add(this.ModelTextBox);
             this.SystemComponentsGroupBox.Controls.Add(this.PlatformTextBox);
             this.SystemComponentsGroupBox.Controls.Add(this.ModelLabel);
@@ -296,6 +318,105 @@
             this.aboutToolStripMenuItem.Size = new System.Drawing.Size(152, 22);
             this.aboutToolStripMenuItem.Text = "About";
             // 
+            // listBox1
+            // 
+            this.listBox1.FormattingEnabled = true;
+            this.listBox1.ItemHeight = 18;
+            this.listBox1.Location = new System.Drawing.Point(108, 101);
+            this.listBox1.Name = "listBox1";
+            this.listBox1.Size = new System.Drawing.Size(307, 256);
+            this.listBox1.TabIndex = 8;
+            // 
+            // LCDSizeLabel
+            // 
+            this.LCDSizeLabel.AutoSize = true;
+            this.LCDSizeLabel.Location = new System.Drawing.Point(31, 103);
+            this.LCDSizeLabel.Name = "LCDSizeLabel";
+            this.LCDSizeLabel.Size = new System.Drawing.Size(71, 18);
+            this.LCDSizeLabel.TabIndex = 9;
+            this.LCDSizeLabel.Text = "LCD Size";
+            // 
+            // MemoryLabel
+            // 
+            this.MemoryLabel.AutoSize = true;
+            this.MemoryLabel.Location = new System.Drawing.Point(39, 129);
+            this.MemoryLabel.Name = "MemoryLabel";
+            this.MemoryLabel.Size = new System.Drawing.Size(63, 18);
+            this.MemoryLabel.TabIndex = 10;
+            this.MemoryLabel.Text = "Memory";
+            // 
+            // CPUBrandLabel
+            // 
+            this.CPUBrandLabel.AutoSize = true;
+            this.CPUBrandLabel.Location = new System.Drawing.Point(19, 155);
+            this.CPUBrandLabel.Name = "CPUBrandLabel";
+            this.CPUBrandLabel.Size = new System.Drawing.Size(83, 18);
+            this.CPUBrandLabel.TabIndex = 11;
+            this.CPUBrandLabel.Text = "CPU Brand";
+            // 
+            // CPUNumberLabel
+            // 
+            this.CPUNumberLabel.AutoSize = true;
+            this.CPUNumberLabel.Location = new System.Drawing.Point(5, 207);
+            this.CPUNumberLabel.Name = "CPUNumberLabel";
+            this.CPUNumberLabel.Size = new System.Drawing.Size(97, 18);
+            this.CPUNumberLabel.TabIndex = 12;
+            this.CPUNumberLabel.Text = "CPU Number";
+            // 
+            // CPUTypeLabel
+            // 
+            this.CPUTypeLabel.AutoSize = true;
+            this.CPUTypeLabel.Location = new System.Drawing.Point(26, 181);
+            this.CPUTypeLabel.Name = "CPUTypeLabel";
+            this.CPUTypeLabel.Size = new System.Drawing.Size(76, 18);
+            this.CPUTypeLabel.TabIndex = 12;
+            this.CPUTypeLabel.Text = "CPU Type";
+            // 
+            // CPUSpeedLabel
+            // 
+            this.CPUSpeedLabel.AutoSize = true;
+            this.CPUSpeedLabel.Location = new System.Drawing.Point(16, 233);
+            this.CPUSpeedLabel.Name = "CPUSpeedLabel";
+            this.CPUSpeedLabel.Size = new System.Drawing.Size(86, 18);
+            this.CPUSpeedLabel.TabIndex = 13;
+            this.CPUSpeedLabel.Text = "CPU Speed";
+            // 
+            // HDDLabel
+            // 
+            this.HDDLabel.AutoSize = true;
+            this.HDDLabel.Location = new System.Drawing.Point(61, 259);
+            this.HDDLabel.Name = "HDDLabel";
+            this.HDDLabel.Size = new System.Drawing.Size(41, 18);
+            this.HDDLabel.TabIndex = 14;
+            this.HDDLabel.Text = "HDD";
+            // 
+            // GPUTypeLabel
+            // 
+            this.GPUTypeLabel.AutoSize = true;
+            this.GPUTypeLabel.Location = new System.Drawing.Point(25, 285);
+            this.GPUTypeLabel.Name = "GPUTypeLabel";
+            this.GPUTypeLabel.Size = new System.Drawing.Size(77, 18);
+            this.GPUTypeLabel.TabIndex = 15;
+            this.GPUTypeLabel.Text = "GPU Type";
+            // 
+            // WebCamLabel
+            // 
+            this.WebCamLabel.AutoSize = true;
+            this.WebCamLabel.Location = new System.Drawing.Point(31, 311);
+            this.WebCamLabel.Name = "WebCamLabel";
+            this.WebCamLabel.Size = new System.Drawing.Size(71, 18);
+            this.WebCamLabel.TabIndex = 16;
+            this.WebCamLabel.Text = "WebCam";
+            // 
+            // OSLabel
+            // 
+            this.OSLabel.AutoSize = true;
+            this.OSLabel.Location = new System.Drawing.Point(72, 337);
+            this.OSLabel.Name = "OSLabel";
+            this.OSLabel.Size = new System.Drawing.Size(30, 18);
+            this.OSLabel.TabIndex = 17;
+            this.OSLabel.Text = "OS";
+            // 
             // OrderForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
@@ -355,5 +476,16 @@
         private System.Windows.Forms.ToolStripMenuItem printToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem exitToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem aboutToolStripMenuItem;
+        private System.Windows.Forms.Label OSLabel;
+        private System.Windows.Forms.Label WebCamLabel;
+        private System.Windows.Forms.Label GPUTypeLabel;
+        private System.Windows.Forms.Label HDDLabel;
+        private System.Windows.Forms.Label CPUSpeedLabel;
+        private System.Windows.Forms.Label CPUTypeLabel;
+        private System.Windows.Forms.Label CPUNumberLabel;
+        private System.Windows.Forms.Label CPUBrandLabel;
+        private System.Windows.Forms.Label MemoryLabel;
+        private System.Windows.Forms.Label LCDSizeLabel;
+        private System.Windows.Forms.ListBox listBox1;
     }
 }
