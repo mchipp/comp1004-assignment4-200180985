@@ -58,7 +58,7 @@
             // 
             this.LogoPictureBox.Location = new System.Drawing.Point(144, 152);
             this.LogoPictureBox.Name = "LogoPictureBox";
-            this.LogoPictureBox.Size = new System.Drawing.Size(146, 137);
+            this.LogoPictureBox.Size = new System.Drawing.Size(150, 130);
             this.LogoPictureBox.TabIndex = 3;
             this.LogoPictureBox.TabStop = false;
             // 
@@ -66,12 +66,13 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(359, 325);
+            this.ClientSize = new System.Drawing.Size(360, 350);
             this.Controls.Add(this.LogoPictureBox);
             this.Controls.Add(this.SloganLabel);
             this.Controls.Add(this.WelcomeLabel);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Name = "SplashScreenForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "SplashForm";
             ((System.ComponentModel.ISupportInitialize)(this.LogoPictureBox)).EndInit();
             this.ResumeLayout(false);

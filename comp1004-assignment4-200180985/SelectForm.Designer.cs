@@ -41,7 +41,7 @@
             this.ComputersDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ComputersDataGridView.Location = new System.Drawing.Point(12, 12);
             this.ComputersDataGridView.Name = "ComputersDataGridView";
-            this.ComputersDataGridView.Size = new System.Drawing.Size(568, 275);
+            this.ComputersDataGridView.Size = new System.Drawing.Size(668, 275);
             this.ComputersDataGridView.TabIndex = 0;
             // 
             // SelectionLabel
@@ -56,25 +56,28 @@
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(124, 298);
+            this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.textBox1.Location = new System.Drawing.Point(124, 294);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(258, 20);
+            this.textBox1.Size = new System.Drawing.Size(377, 24);
             this.textBox1.TabIndex = 2;
             // 
             // NextButton
             // 
-            this.NextButton.Location = new System.Drawing.Point(505, 297);
+            this.NextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.NextButton.Location = new System.Drawing.Point(605, 293);
             this.NextButton.Name = "NextButton";
-            this.NextButton.Size = new System.Drawing.Size(75, 23);
+            this.NextButton.Size = new System.Drawing.Size(75, 26);
             this.NextButton.TabIndex = 3;
             this.NextButton.Text = "Next";
             this.NextButton.UseVisualStyleBackColor = true;
             // 
             // CancelButton
             // 
-            this.CancelButton.Location = new System.Drawing.Point(424, 297);
+            this.CancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.CancelButton.Location = new System.Drawing.Point(524, 293);
             this.CancelButton.Name = "CancelButton";
-            this.CancelButton.Size = new System.Drawing.Size(75, 23);
+            this.CancelButton.Size = new System.Drawing.Size(75, 26);
             this.CancelButton.TabIndex = 4;
             this.CancelButton.Text = "Cancel";
             this.CancelButton.UseVisualStyleBackColor = true;
@@ -83,14 +86,15 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(592, 323);
+            this.ClientSize = new System.Drawing.Size(692, 323);
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.NextButton);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.SelectionLabel);
             this.Controls.Add(this.ComputersDataGridView);
             this.Name = "SelectForm";
-            this.Text = "SelectForm";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
+            this.Text = "Select Your Computer";
             ((System.ComponentModel.ISupportInitialize)(this.ComputersDataGridView)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
