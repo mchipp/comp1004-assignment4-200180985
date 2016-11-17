@@ -41,14 +41,14 @@
             this.ComputersDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             this.ComputersDataGridView.Location = new System.Drawing.Point(12, 12);
             this.ComputersDataGridView.Name = "ComputersDataGridView";
-            this.ComputersDataGridView.Size = new System.Drawing.Size(668, 275);
+            this.ComputersDataGridView.Size = new System.Drawing.Size(761, 356);
             this.ComputersDataGridView.TabIndex = 0;
             // 
             // SelectionLabel
             // 
             this.SelectionLabel.AutoSize = true;
             this.SelectionLabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.SelectionLabel.Location = new System.Drawing.Point(12, 297);
+            this.SelectionLabel.Location = new System.Drawing.Point(12, 378);
             this.SelectionLabel.Name = "SelectionLabel";
             this.SelectionLabel.Size = new System.Drawing.Size(106, 18);
             this.SelectionLabel.TabIndex = 1;
@@ -57,15 +57,15 @@
             // textBox1
             // 
             this.textBox1.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.textBox1.Location = new System.Drawing.Point(124, 294);
+            this.textBox1.Location = new System.Drawing.Point(124, 375);
             this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(377, 24);
+            this.textBox1.Size = new System.Drawing.Size(478, 24);
             this.textBox1.TabIndex = 2;
             // 
             // NextButton
             // 
             this.NextButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.NextButton.Location = new System.Drawing.Point(605, 293);
+            this.NextButton.Location = new System.Drawing.Point(698, 374);
             this.NextButton.Name = "NextButton";
             this.NextButton.Size = new System.Drawing.Size(75, 26);
             this.NextButton.TabIndex = 3;
@@ -75,7 +75,7 @@
             // CancelButton
             // 
             this.CancelButton.Font = new System.Drawing.Font("Microsoft Sans Serif", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.CancelButton.Location = new System.Drawing.Point(524, 293);
+            this.CancelButton.Location = new System.Drawing.Point(617, 374);
             this.CancelButton.Name = "CancelButton";
             this.CancelButton.Size = new System.Drawing.Size(75, 26);
             this.CancelButton.TabIndex = 4;
@@ -86,7 +86,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(692, 323);
+            this.ClientSize = new System.Drawing.Size(785, 411);
             this.Controls.Add(this.CancelButton);
             this.Controls.Add(this.NextButton);
             this.Controls.Add(this.textBox1);
