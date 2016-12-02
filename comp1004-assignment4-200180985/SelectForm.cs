@@ -27,6 +27,24 @@ namespace comp1004_assignment4_200180985
         private void ComputersDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
             SelectionTextBox.Text = ComputersDataGridView.SelectedRows[0].Cells[2].Value.ToString() + " " + ComputersDataGridView.SelectedRows[0].Cells[3].Value.ToString() + " Priced at: " + ComputersDataGridView.SelectedRows[0].Cells[1].Value.ToString();
+            NextButton.Enabled = true;
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void NextButton_Click(object sender, EventArgs e)
+        {
+            // instantiate a new ProductInfoForm
+            ProductInfoForm infoForm = new ProductInfoForm();
+
+            // show the ProductInfoForm
+            infoForm.Show();
+
+            // hide this form
+            this.Hide();
         }
     }
 }

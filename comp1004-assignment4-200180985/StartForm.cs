@@ -22,11 +22,11 @@ namespace comp1004_assignment4_200180985
             // instantiate a new SelectForm
             SelectForm selectForm = new SelectForm();
 
-            // hide this form
-            this.Hide();
-
             // show the new SelectForm
             selectForm.Show();
+
+            // hide this form
+            this.Hide();
         }
 
         private void ExitButton_Click(object sender, EventArgs e)

@@ -16,5 +16,20 @@ namespace comp1004_assignment4_200180985
         {
             InitializeComponent();
         }
+
+        public void ExitApplication()
+        {
+            Application.Exit();
+        }
+
+        private void exitToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            ExitApplication();
+        }
+
+        private void CancelButton_Click(object sender, EventArgs e)
+        {
+            ExitApplication();
+        }
     }
 }
