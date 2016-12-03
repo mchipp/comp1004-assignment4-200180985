@@ -24,12 +24,6 @@ namespace comp1004_assignment4_200180985
 
         }
 
-        private void ComputersDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            SelectionTextBox.Text = ComputersDataGridView.SelectedRows[0].Cells[2].Value.ToString() + " " + ComputersDataGridView.SelectedRows[0].Cells[3].Value.ToString() + " Priced at: " + ComputersDataGridView.SelectedRows[0].Cells[1].Value.ToString();
-            NextButton.Enabled = true;
-        }
-
         private void CancelButton_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -45,6 +39,17 @@ namespace comp1004_assignment4_200180985
 
             // hide this form
             this.Hide();
+        }
+
+        private void ComputersDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            SelectionTextBox.Text = ComputersDataGridView.SelectedRows[0].Cells[2].Value.ToString()
+                + " "
+                + ComputersDataGridView.SelectedRows[0].Cells[3].Value.ToString()
+                + " Priced at: "
+                + ComputersDataGridView.SelectedRows[0].Cells[1].Value.ToString();
+
+            //Program.CurrentSelectedComputer = ComputersDataGridView.SelectedRows.
         }
     }
 }

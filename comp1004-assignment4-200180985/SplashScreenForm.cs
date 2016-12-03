@@ -19,7 +19,8 @@ namespace comp1004_assignment4_200180985
 
         private void SplashScreenTimer_Tick(object sender, EventArgs e)
         {
-            // disable the timer
+            // stop and disable the timer
+            this.SplashScreenTimer.Stop();
             this.SplashScreenTimer.Enabled = false;
 
             // instantiate new StartForm

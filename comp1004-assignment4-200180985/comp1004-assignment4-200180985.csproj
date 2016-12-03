@@ -65,6 +65,12 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>DollarComputersDataSet.xsd</DependentUpon>
     </Compile>
+    <Compile Include="FinishForm.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FinishForm.Designer.cs">
+      <DependentUpon>FinishForm.cs</DependentUpon>
+    </Compile>
     <Compile Include="Models\Model1.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
@@ -115,6 +121,9 @@
     <Compile Include="StartForm.Designer.cs">
       <DependentUpon>StartForm.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="FinishForm.resx">
+      <DependentUpon>FinishForm.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="OrderForm.resx">
       <DependentUpon>OrderForm.cs</DependentUpon>
     </EmbeddedResource>
