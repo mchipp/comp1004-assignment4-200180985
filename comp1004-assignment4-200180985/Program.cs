@@ -21,7 +21,7 @@ namespace comp1004_assignment4_200180985
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new OrderForm());
+            Application.Run(new SplashScreenForm());
         }
 
 
